@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Hash1/src/com.ld.tij&apos;&#x0D;&#x0A;- Original project: &apos;Hash1&apos;&#x0D;&#x0A;- Destination element: &apos;Hash1/src/com.ld.tij&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     StringDetector.java&#x0D;&#x0A;     SimpleHashMap.java&#x0D;&#x0A;     SlowMap.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;com.ld.tij" element1="/src&lt;{StringDetector.java" element2="/src&lt;{SimpleHashMap.java" element3="/src&lt;{SlowMap.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1381890303536" units="3" version="1.0"/>
+</session>
