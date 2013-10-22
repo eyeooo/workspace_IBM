@@ -28,7 +28,7 @@ class Blip1 implements Externalizable{
 }
 
 class Blip2 implements Externalizable{
-	public Blip2(){
+	 Blip2(){
 		System.out.println("Blip2 Con");
 	}
 
