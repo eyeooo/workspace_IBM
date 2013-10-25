@@ -1,0 +1,110 @@
+﻿client_id:2012121100040200
+grant_type:client_credentials
+user_level:1
+tip:您是来自交警平台的用户.
+redirect_uri:http://www.stc.gov.cn:9090/oauth/auth?sys_href_uri=http://cgs1.stc.gov.cn/Login.aspx
+sign:7524a1c199eb4a9566a11882d7df352a272853ecd278750b53712e99af2234d65b23c01a67f9921aade54f20ef4fc368b03bb81f39b70ce81296118dd031185f7b0e740de1f95325b5b477c872e7429d49186a2396fd98ae91156e774ae06148e2ee007afce5260dd1435af3ace87e565fc9690756bbc0015bf4cee2cba80436
+
+client_id:2012121100040200
+grant_type:client_credentials
+user_level:1
+tip:您是来自交警平台的用户.
+redirect_uri:http://www.stc.gov.cn:9090/oauth/auth?sys_href_uri=http://cgs1.stc.gov.cn/Login.aspx
+sign:7524a1c199eb4a9566a11882d7df352a272853ecd278750b53712e99af2234d65b23c01a67f9921aade54f20ef4fc368b03bb81f39b70ce81296118dd031185f7b0e740de1f95325b5b477c872e7429d49186a2396fd98ae91156e774ae06148e2ee007afce5260dd1435af3ace87e565fc9690756bbc0015bf4cee2cba80436
+
+http://www.stc.gov.cn:9090/oauth/stc_auth.do?client_id=2012121100040200&grant_type=client_credentials&user_level=1&tip=%E6%82%A8%E6%98%AF%E6%9D%A5%E8%87%AA%E4%BA%A4%E8%AD%A6%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%94%A8%E6%88%B7.&redirect_uri=http%3A%2F%2Fwww.stc.gov.cn%3A9090%2Foauth%2Fauth%3Fsys_href_uri%3Dhttp%3A%2F%2Fcgs1.stc.gov.cn%2FLogin.aspx&sign=7524a1c199eb4a9566a11882d7df352a272853ecd278750b53712e99af2234d65b23c01a67f9921aade54f20ef4fc368b03bb81f39b70ce81296118dd031185f7b0e740de1f95325b5b477c872e7429d49186a2396fd98ae91156e774ae06148e2ee007afce5260dd1435af3ace87e565fc9690756bbc0015bf4cee2cba80436
+
+
+-----------to auth & login--------------
+https://auth.kftpay.com.cn/oauth/traffic?client_id=2012121100040200&grant_type=client_credentials&user_level=1&tip=%E6%82%A8%E6%98%AF%E6%9D%A5%E8%87%AA%E4%BA%A4%E8%AD%A6%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%94%A8%E6%88%B7.&redirect_uri=http%3A%2F%2Fwww.stc.gov.cn%3A9090%2Foauth%2Fauth%3Fsys_href_uri%3Dhttp%3A%2F%2Fcgs1.stc.gov.cn%2FLogin.aspx&sign=7524a1c199eb4a9566a11882d7df352a272853ecd278750b53712e99af2234d65b23c01a67f9921aade54f20ef4fc368b03bb81f39b70ce81296118dd031185f7b0e740de1f95325b5b477c872e7429d49186a2396fd98ae91156e774ae06148e2ee007afce5260dd1435af3ace87e565fc9690756bbc0015bf4cee2cba80436
+
+----------auth verification-------------
+Request URL:https://auth.kftpay.com.cn/j_spring_security_check
+Request Method:POST
+Status Code:302 Found
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Content-Length:157
+Content-Type:application/x-www-form-urlencoded
+Cookie:JSESSIONID=E6D02931C3BF21E4D636A1E9D012F341-n2
+Host:auth.kftpay.com.cn
+Origin:https://auth.kftpay.com.cn
+Referer:https://auth.kftpay.com.cn/oauth/traffic
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+Form Dataview sourceview URL encoded
+j_username:wf666888
+j_password:6487kXs6ahuGUKFocnKoNg==
+passwordText:
+checkbox:
+_captcha_token_paramter:gzn3
+securityKey:eljpahzzvkex0lxggujuap08noaoaxch
+Response Headersview source
+Connection:keep-alive
+Content-Length:0
+Date:Thu, 24 Oct 2013 05:07:32 GMT
+Location:https://auth.kftpay.com.cn/login/success/default
+Server:Tengine/1.4.4
+
+Request URL:https://auth.kftpay.com.cn/login/success/default
+Request Method:GET
+Status Code:302 Found
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Cookie:JSESSIONID=E6D02931C3BF21E4D636A1E9D012F341-n2
+Host:auth.kftpay.com.cn
+Referer:https://auth.kftpay.com.cn/oauth/traffic
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+Response Headersview source
+Connection:keep-alive
+Content-Language:zh-CN
+Content-Length:0
+Date:Thu, 24 Oct 2013 05:07:32 GMT
+Location:http://www.stc.gov.cn:9090/oauth/auth?sys_href_uri=http://cgs1.stc.gov.cn/Login.aspx&access_token=103201310241307320529256&expires_in=1&id_no=610321198605233818&mobile=13537873388&name=%E7%8E%8B%E8%BE%89&sign=142c4f05adfa81cfddbd5b70c1f3dacd38bb1e4c9954ee818bd8ea5444e91428620ca34864dacfb886bc37470b6dc4ccf56f3ed65ca7e33496076eb432d103167af459bd54618b898965deb52c45c949c3838d21d530ac8b2690cd82943598b13e0519b5165edaea71a1ba31fbb1caeaee5f9faa733f793bb12c20f3af73cb9bdf09ffb7e52f14324ce4f1fc00ef82bdb21b41f6821943579a4cb0cf33170178bc75b2223831184d454ac066bf5733fe3b1bb05f8374f8d2543d9f3b197aa9147fa1e45b489e3a447afb26a7d104471b2133eaa52415d7cbd306f127ea3b6f14ba65b411f36d3702a4fdb7f9d2377cba2280a9fd9472537de40e58b2fd1a1b7d
+Server:Tengine/1.4.4
+
+Request URL:http://www.stc.gov.cn:9090/oauth/auth?sys_href_uri=http://cgs1.stc.gov.cn/Login.aspx&access_token=103201310241307320529256&expires_in=1&id_no=610321198605233818&mobile=13537873388&name=%E7%8E%8B%E8%BE%89&sign=142c4f05adfa81cfddbd5b70c1f3dacd38bb1e4c9954ee818bd8ea5444e91428620ca34864dacfb886bc37470b6dc4ccf56f3ed65ca7e33496076eb432d103167af459bd54618b898965deb52c45c949c3838d21d530ac8b2690cd82943598b13e0519b5165edaea71a1ba31fbb1caeaee5f9faa733f793bb12c20f3af73cb9bdf09ffb7e52f14324ce4f1fc00ef82bdb21b41f6821943579a4cb0cf33170178bc75b2223831184d454ac066bf5733fe3b1bb05f8374f8d2543d9f3b197aa9147fa1e45b489e3a447afb26a7d104471b2133eaa52415d7cbd306f127ea3b6f14ba65b411f36d3702a4fdb7f9d2377cba2280a9fd9472537de40e58b2fd1a1b7d
+Request Method:GET
+Status Code:200 OK
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Accept-Encoding:gzip,deflate,sdch
+Accept-Language:zh-CN,zh;q=0.8
+Connection:keep-alive
+Cookie:JSESSIONID=6FC72B70853657735BC46CBE49598F92; ASPSESSIONIDSATACRDQ=FNBCDGMDNDEBDHIBBPELILAI; ASPSESSIONIDSARABSCR=HDNPDHMDDMCJECMBBIELNJGH; ASPSESSIONIDQARCDSDR=MIOBBIMDFCOMECDBJCEHIGEJ
+Host:www.stc.gov.cn:9090
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+Query String Parametersview sourceview URL encoded
+sys_href_uri:http://cgs1.stc.gov.cn/Login.aspx
+access_token:103201310241307320529256
+expires_in:1
+id_no:610321198605233818
+mobile:13537873388
+name:王辉
+sign:142c4f05adfa81cfddbd5b70c1f3dacd38bb1e4c9954ee818bd8ea5444e91428620ca34864dacfb886bc37470b6dc4ccf56f3ed65ca7e33496076eb432d103167af459bd54618b898965deb52c45c949c3838d21d530ac8b2690cd82943598b13e0519b5165edaea71a1ba31fbb1caeaee5f9faa733f793bb12c20f3af73cb9bdf09ffb7e52f14324ce4f1fc00ef82bdb21b41f6821943579a4cb0cf33170178bc75b2223831184d454ac066bf5733fe3b1bb05f8374f8d2543d9f3b197aa9147fa1e45b489e3a447afb26a7d104471b2133eaa52415d7cbd306f127ea3b6f14ba65b411f36d3702a4fdb7f9d2377cba2280a9fd9472537de40e58b2fd1a1b7d
+Response Headersview source
+Content-Length:366
+Content-Type:text/html;charset=utf-8
+Date:Thu, 24 Oct 2013 05:07:32 GMT
+Server:Apache-Coyote/1.1
+
+Request URL:http://cgs1.stc.gov.cn/Login.aspx
+Request Headersview source
+Accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Content-Type:application/x-www-form-urlencoded
+Origin:http://www.stc.gov.cn:9090
+Referer:http://www.stc.gov.cn:9090/oauth/auth?sys_href_uri=http://cgs1.stc.gov.cn/Login.aspx&access_token=103201310241307320529256&expires_in=1&id_no=610321198605233818&mobile=13537873388&name=%E7%8E%8B%E8%BE%89&sign=142c4f05adfa81cfddbd5b70c1f3dacd38bb1e4c9954ee818bd8ea5444e91428620ca34864dacfb886bc37470b6dc4ccf56f3ed65ca7e33496076eb432d103167af459bd54618b898965deb52c45c949c3838d21d530ac8b2690cd82943598b13e0519b5165edaea71a1ba31fbb1caeaee5f9faa733f793bb12c20f3af73cb9bdf09ffb7e52f14324ce4f1fc00ef82bdb21b41f6821943579a4cb0cf33170178bc75b2223831184d454ac066bf5733fe3b1bb05f8374f8d2543d9f3b197aa9147fa1e45b489e3a447afb26a7d104471b2133eaa52415d7cbd306f127ea3b6f14ba65b411f36d3702a4fdb7f9d2377cba2280a9fd9472537de40e58b2fd1a1b7d
+User-Agent:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.101 Safari/537.36
+Form Dataview sourceview URL encoded
+card_name:916A2E8D9134B7C4
+card_id:651E5935543457003C1CBFC2703824C743B89A9B6D896013
+mobile:66CBD4FE54BF66F17360DF42136E306F
+
+-----------
+
+
