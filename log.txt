@@ -1,4 +1,0 @@
-1.登陆平台->认证平台（每次相同）POST
-https://auth.kftpay.com.cn/oauth/traffic?client_id=2012121100040200&grant_type=client_credentials&user_level=1&tip=%E6%82%A8%E6%98%AF%E6%9D%A5%E8%87%AA%E4%BA%A4%E8%AD%A6%E5%B9%B3%E5%8F%B0%E7%9A%84%E7%94%A8%E6%88%B7.&redirect_uri=http%3A%2F%2Fwww.stc.gov.cn%3A9090%2Foauth%2Fauth%3Fsys_href_uri%3Dhttp%3A%2F%2Fcgs1.stc.gov.cn%2FLogin.aspx&sign=7524a1c199eb4a9566a11882d7df352a272853ecd278750b53712e99af2234d65b23c01a67f9921aade54f20ef4fc368b03bb81f39b70ce81296118dd031185f7b0e740de1f95325b5b477c872e7429d49186a2396fd98ae91156e774ae06148e2ee007afce5260dd1435af3ace87e565fc9690756bbc0015bf4cee2cba80436
-
-2.认证平台用户验证
