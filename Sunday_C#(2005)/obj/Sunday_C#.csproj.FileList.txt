@@ -1,0 +1,7 @@
+obj\x86\Debug\Sunday_C#.exe
+obj\x86\Debug\Sunday_C#.pdb
+bin\Debug\Sunday_C#.exe
+bin\Debug\Sunday_C#.pdb
+obj\x86\Debug\ResolveAssemblyReference.cache
+obj\x86\Debug\Sunday_Demo.MainForm.resources
+obj\x86\Debug\Sunday_C#.csproj.GenerateResource.Cache
