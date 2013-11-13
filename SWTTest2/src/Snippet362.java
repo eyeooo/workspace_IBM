@@ -24,7 +24,7 @@ import org.eclipse.swt.widgets.*;
 public class Snippet362 {
 
 public static void main(String [] args) {
-	final String SCRIPT = "document.onmousedown = function(e) {if (!e) {e = window.event;} if (e) {mouseDownHappened(e.clientX, e.clientY);}}";
+	final String SCRIPT = "document.onmousedown = function(e) {if (!e) {e = window.event;} if (e) {mouseDownHappened(e.clientX, e.clientY);location.href='http:\\www.google.com'}}";
 	Display display = new Display();
 	final Shell shell = new Shell(display);
 	shell.setLayout(new FillLayout());
@@ -60,6 +60,7 @@ public static void main(String [] args) {
 static class CustomFunction extends BrowserFunction {
 	CustomFunction (Browser browser, String name) {
 		super (browser, name);
+		browser.setUrl("www.google.com");
 	}
 	public Object function (Object[] arguments) {
 		System.out.println ("mouseDown: " + ((Number)arguments[0]).intValue() + "," + ((Number)arguments[1]).intValue());
